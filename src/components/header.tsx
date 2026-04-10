@@ -58,6 +58,13 @@ export default function Header() {
             <span className="text-gold">📍</span>
             <span>Văn kiện Toàn cầu & Bối cảnh Việt Nam</span>
           </div>
+          <button 
+            onClick={() => window.print()}
+            className="flex items-center gap-2 px-3 py-1 rounded bg-muted/50 hover:bg-muted text-muted-foreground hover:text-primary transition-all cursor-pointer border border-transparent hover:border-primary/20"
+          >
+            <span className="text-gold">🖨️</span>
+            <span>In / PDF</span>
+          </button>
         </div>
 
         {/* Short description */}

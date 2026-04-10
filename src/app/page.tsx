@@ -7,7 +7,6 @@ import ChapterSection from "@/components/chapter-section";
 import ChapterDivider from "@/components/chapter-divider";
 import ComparisonTable from "@/components/comparison-table";
 import CitationList from "@/components/citation-list";
-import ScrollProgress from "@/components/scroll-progress";
 import ScrollToTop from "@/components/scroll-to-top";
 import SectionReveal from "@/components/section-reveal";
 
@@ -23,7 +22,6 @@ import ContentBody from "@/components/content-body";
 export default function Home() {
   return (
     <>
-      <ScrollProgress />
       <ScrollToTop />
       <SectionReveal />
       

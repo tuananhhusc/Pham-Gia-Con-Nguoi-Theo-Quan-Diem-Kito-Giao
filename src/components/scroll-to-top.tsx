@@ -23,7 +23,7 @@ export default function ScrollToTop() {
   return (
     <button
       onClick={scrollToTop}
-      className="fixed bottom-6 left-6 z-50 w-11 h-11 rounded-full bg-white border border-warm-gray shadow-lg flex items-center justify-center text-roman-blue hover:bg-parchment hover:border-gold transition-all duration-200 group print:hidden"
+      className="fixed bottom-24 left-6 z-50 w-11 h-11 rounded-full bg-white border border-warm-gray shadow-lg flex items-center justify-center text-roman-blue hover:bg-parchment hover:border-gold transition-all duration-200 group print:hidden"
       aria-label="Cuộn lên đầu trang"
     >
       <svg
