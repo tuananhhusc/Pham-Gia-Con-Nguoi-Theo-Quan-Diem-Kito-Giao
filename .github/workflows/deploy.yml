@@ -35,15 +35,21 @@ jobs:
         run: npm install
         
       - name: Build with Next.js
-        run: npm run build
+        run: npx next build
         
-      - name: List files (Debug)
-        run: ls -R
+      - name: Locate Build Output
+        run: |
+          echo "Checking directory structure after build..."
+          ls -la
+          echo "Finding index.html location..."
+          export OUTPUT_PATH=$(find . -name index.html -not -path "./node_modules/*" | head -n 1 | xargs dirname)
+          echo "Output seems to be in: $OUTPUT_PATH"
+          echo "OUTPUT_DIR=$OUTPUT_PATH" >> $GITHUB_ENV
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: out
+          path: ${{ env.OUTPUT_DIR || 'out' }}
 
   deploy:
     environment:
