@@ -5,12 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  // Trong Next.js 16+, các tùy chọn này có thể có cấu trúc khác hoặc được xử lý tự động.
+  // Chúng ta sẽ giữ các tùy chọn tối thiểu cần thiết cho Static Export.
 };
 
 export default nextConfig;
