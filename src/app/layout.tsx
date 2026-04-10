@@ -41,7 +41,7 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nghiencuuthanhoc.vn"), // Thay bằng tên miền thực tế của bạn
+  metadataBase: new URL("https://ta.tuananhhusc.id.vn/Pham-Gia-Con-Nguoi-Theo-Quan-Diem-Kito-Giao"), 
   title:
     "Phẩm Giá Con Người Theo Quan Điểm Kitô Giáo. | Báo cáo Nghiên cứu Toàn diện",
   description:
