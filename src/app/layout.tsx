@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   description:
     "Nghiên cứu toàn diện về phẩm giá con người (Imago Dei) qua lăng kính Kitô giáo: Công giáo, Chính thống giáo và Tin Lành. Phân tích các thách thức đương đại từ AI, đạo đức sinh học đến bối cảnh Việt Nam.",
   alternates: {
-    canonical: "/",
+    canonical: "/Pham-Gia-Con-Nguoi-Theo-Quan-Diem-Kito-Giao./",
   },
   keywords: [
     "Phẩm giá con người",
@@ -66,12 +66,12 @@ export const metadata: Metadata = {
     description:
       "Báo cáo nghiên cứu toàn diện về phẩm giá con người qua lăng kính thần học Kitô giáo. Một công trình đối chiếu Công giáo, Chính thống và Tin Lành.",
     type: "article",
-    url: "/",
+    url: "/Pham-Gia-Con-Nguoi-Theo-Quan-Diem-Kito-Giao./",
     siteName: "Nghiên Cứu Chuyên Sâu",
     locale: "vi_VN",
     images: [
       {
-        url: "/imago_dei_diagram.png", // Sử dụng chính sơ đồ chính xác chúng ta vừa tạo
+        url: "/Pham-Gia-Con-Nguoi-Theo-Quan-Diem-Kito-Giao./imago_dei_diagram.png", // Sử dụng chính sơ đồ chính xác chúng ta vừa tạo
         width: 1200,
         height: 630,
         alt: "Sơ đồ Thần học Imago Dei",
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     title: "Phẩm Giá Con Người Theo Quan Điểm Kitô Giáo.",
     description:
       "Nghiên cứu sâu sắc về nhân phẩm từ nền tảng Imago Dei đến các thách thức công nghệ hiện đại.",
-    images: ["/imago_dei_diagram.png"],
+    images: ["/Pham-Gia-Con-Nguoi-Theo-Quan-Diem-Kito-Giao./imago_dei_diagram.png"],
   },
   robots: {
     index: true,

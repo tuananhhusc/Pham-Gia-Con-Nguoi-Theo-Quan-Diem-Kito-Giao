@@ -116,7 +116,7 @@ export default function ContentBody() {
 
         <div className="my-10 overflow-hidden rounded-2xl border border-border/40 shadow-xl bg-muted/20">
           <Image 
-            src="/imago_dei_diagram.png" 
+            src="/Pham-Gia-Con-Nguoi-Theo-Quan-Diem-Kito-Giao./imago_dei_diagram.png" 
             alt="Sơ đồ Thần học Imago Dei" 
             width={1200}
             height={800}
