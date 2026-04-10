@@ -30,17 +30,20 @@ export default function ScholarlyText({ children }: { children: string | React.R
         <span key={`cite-${i}`}>
           {hasDot && "."}
           <Tooltip>
-            <TooltipTrigger asChild>
-              <a
-                href="#nguon-trich-dan"
-                className="citation-sup"
-                onClick={(e) => {
-                  e.preventDefault();
-                  document.getElementById("nguon-trich-dan")?.scrollIntoView({ behavior: "smooth" });
-                }}
-              >
-                {numStr}
-              </a>
+            <TooltipTrigger
+              render={
+                <a
+                  href="#nguon-trich-dan"
+                  className="citation-sup"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const el = document.getElementById("nguon-trich-dan");
+                    if (el) el.scrollIntoView({ behavior: "smooth" });
+                  }}
+                />
+              }
+            >
+              {numStr}
             </TooltipTrigger>
             {citationData && (
               <TooltipContent className="max-w-[300px] p-3 text-sm font-serif leading-relaxed bg-card text-foreground border-border shadow-md">
