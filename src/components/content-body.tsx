@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import ChapterSection from "@/components/chapter-section";
 import ChapterDivider from "@/components/chapter-divider";
 import ComparisonTable from "@/components/comparison-table";
@@ -114,9 +115,11 @@ export default function ContentBody() {
         />
 
         <div className="my-10 overflow-hidden rounded-2xl border border-border/40 shadow-xl bg-muted/20">
-          <img 
+          <Image 
             src="/imago_dei_diagram.png" 
             alt="Sơ đồ Thần học Imago Dei" 
+            width={1200}
+            height={800}
             className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
           />
           <div className="p-4 text-center border-t border-border/10">
