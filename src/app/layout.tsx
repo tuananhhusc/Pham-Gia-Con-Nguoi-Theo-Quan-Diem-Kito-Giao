@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     locale: "vi_VN",
     images: [
       {
-        url: "/imago_dei_diagram.png", // Sử dụng chính sơ đồ chính xác chúng ta vừa tạo
+        url: "/Pham-Gia-Con-Nguoi-Theo-Quan-Diem-Kito-Giao/imago_dei_diagram.png", // Sử dụng chính sơ đồ chính xác chúng ta vừa tạo
         width: 1200,
         height: 630,
         alt: "Sơ đồ Thần học Imago Dei",
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     title: "Phẩm Giá Con Người Theo Quan Điểm Kitô Giáo.",
     description:
       "Nghiên cứu sâu sắc về nhân phẩm từ nền tảng Imago Dei đến các thách thức công nghệ hiện đại.",
-    images: ["/imago_dei_diagram.png"],
+    images: ["/Pham-Gia-Con-Nguoi-Theo-Quan-Diem-Kito-Giao/imago_dei_diagram.png"],
   },
   robots: {
     index: true,

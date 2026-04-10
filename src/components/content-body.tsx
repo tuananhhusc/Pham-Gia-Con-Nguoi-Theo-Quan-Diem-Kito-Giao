@@ -7,6 +7,7 @@ import ComparisonTable from "@/components/comparison-table";
 import PullQuote from "@/components/pull-quote";
 import CitationList from "@/components/citation-list";
 import ScholarlyText from "@/components/scholarly-text";
+import { resolvePath } from "@/lib/utils";
 
 export const baTruyenThongRows = [
   {
@@ -116,7 +117,7 @@ export default function ContentBody() {
 
         <div className="my-10 overflow-hidden rounded-2xl border border-border/40 shadow-xl bg-muted/20">
           <Image 
-            src="/imago_dei_diagram.png" 
+            src={resolvePath("/imago_dei_diagram.png")} 
             alt="Sơ đồ Thần học Imago Dei" 
             width={1200}
             height={800}
